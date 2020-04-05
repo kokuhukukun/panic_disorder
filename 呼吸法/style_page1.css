@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #EEEEEE;
+}
+header{
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+header,h1,#profile,footer{
+  text-align:center;
+}
+.subtitle{
+  color:gray;
+}
+h1{
+  font-family:courier;
+  color: #333333;
+}
+a{
+  text-decoration: none;
+}
+.white-navi{
+  color: white;
+}
+#global_navi ul{
+  list-style-type: none;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  border-left: 1px solid white;
+  background-color: #FFAD90;
+}
+#global_navi ul li{
+  display: inline-block;
+  width: 80px;
+  padding: 7px 0;
+  margin: 5px 0;
+  border-right: 1px solid white;
+  vertical-align: middle;
+  background: #FFAD90;
+}
+#global_navi ul li:hover{
+  text-decoration: underline;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity:0.6;
+}
+.container{
+  display: flex;
+}
+.content{
+  width:748px;height:5150px;
+  border:solid; border-radius: 10px; border-color: white;
+  margin:30px 15px 15px 180px;
+  padding:15px 20px 15px 20px;
+  background-color: white;
+  color: #333333;
+  }
+h2{
+  margin: 30px 10px 30px 20px;
+}
+.icon img{
+  margin:50px 50px 50px 50px;
+  padding:15px 15px 15px 15px;
+  border:solid 3px #EEEEEE;
+  border-radius: 10px;
+}
+.icon img{
+  clear:left;
+}
+.kiji{
+  margin:15px 15px 50px 30px;
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: left;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+.box7{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #474747;
+  background: whitesmoke;
+  border-left: double 7px #4ec4d3;
+  border-right: double 7px #4ec4d3;
+}
+.marker20{
+  background: linear-gradient(transparent 75%, #ffe0c1 75%);
+  font-weight: bold;
+}
+aside{
+  width:300px;
+  height: 400px;
+  border:solid; border-radius: 10px; border-color: white;
+  margin:30px 15px 0px 15px;
+  padding:15px 15px 15px 15px;
+  background-color: white;
+  color: gray;
+}
+#prof{
+  color:#545454;
+  font-weight: bold;
+}
+#prof_img img{
+  width:150px;
+  margin-top:10px;
+}
+#prof_info{
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+footer{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #FFAD90;
+  color: white;
+}
